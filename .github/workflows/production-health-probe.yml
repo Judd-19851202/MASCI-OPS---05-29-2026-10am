@@ -19,8 +19,6 @@ name: production-health-probe
 # workflow_dispatch button always works.
 
 on:
-  schedule:
-    - cron: "*/15 * * * *"   # every 15 minutes
   workflow_dispatch: {}      # manual "Run workflow" button
 
 permissions:
